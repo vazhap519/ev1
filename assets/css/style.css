@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url("../fonts/DejaVuSans.ttf");
+    font-family: 'DejaVuSans';
+}
+
+
+@font-face {
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-family: "Roboto";
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    color: white;
+    /*background: #1d2124;*/
+    width: 100%;
+text-align: center;
+}
+.cont-center{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: black; */
+    /* background-repeat: no-repeat, repeat; */
+    background: url(../images/product-school-dJICd7b_LlE-unsplash-scaled.jpg) , url(../images/logo-02.png);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-position: center center , top left -32px;
+    background-repeat: no-repeat, no-repeat;
+
+
+}
+#clock {
+
+    width: 100%;
+    margin-top: 30px;
+    background: transparent;
+
+}
+
+
+.cd {
+
+    /*margin-left: 120px;*/
+    color: #ffffff;
+    display: inline-block;
+
+}
+
+.cdTd {
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    width: 200px;
+    font-size: 18px;
+    display: inline-block;
+    /*text-align: center;*/
+    /*font-family: 'DejaVuSans';*/
+margin-left: 10px;
+}
+h1.bigHeader {
+    color: #039F9A;
+    font-size: 64px;
+    font-family: 'DejaVuSans';
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.miniheader{
+    font-family: 'DejaVuSans';
+    /*font-size: 27px;*/
+}
+.btnColor{
+    background-color: #039F9A;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 40px;
+    padding: 15px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btnColor:hover{
+
+
+    transform: scale(1.2);
+    color: #fff;
+    transition: 0.8s ease-in-out;
+}
+.buttomButtons{
+margin-top: 40px;
+    text-transform: capitalize;
+    border-bottom-left-radius: 70px;
+    margin-bottom: 30px;
+}
+.bottomCol{
+    color: white;
+    border: 1px solid slategray;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.bottomCol:hover{
+
+    transform: scale(1.2);
+    color: #039F9A;
+    background-color: #fff;
+    transition: 0.8s ease-in-out;
+}
+@media (min-width:100px) and (max-width: 250px) {
+    h1.bigHeader {
+        font-size: 14px!important;
+        margin-top: 20px;
+    }
+    .miniheader{
+        font-size: 10px!important;
+        margin-top: 20px;
+    }
+    .cdTd{
+width: 100px;
+
+        font-size: 10px;
+
+    }
+    .btnColor{
+width: 70px;
+        font-size: 10px;
+        text-align: center!important;
+
+        margin-top: 10px;
+    }
+    .buttomButtons{
+        width: 70px;
+        font-size: 10px;
+        text-align: center!important;
+        margin-left: 23px;
+        margin-top: 10px;
+    }
+}
+/*******************************************************************************************************************/
+@media(min-width: 300px) and (max-width: 580px) {
+    h1.bigHeader {
+        font-size: 25px;
+        margin-top: 20px;
+
+    }
+    .miniheader{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .cdTd{
+
+        margin-left: -10px;
+    }
+    .btnColor{
+
+        font-size: 10px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .buttomButtons{
+
+        font-size: 10px;
+        text-align: center;
+margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+@media(min-width: 580px) and (max-width: 767px){
+    h1.bigHeader {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .miniheader{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .cdTd{
+        width: 100px;
+
+        font-size: 10px;
+
+    }
+    .btnColor{
+
+        font-size: 10px;
+        text-align: center!important;
+
+        margin-top: 10px;
+    }
+    .buttomButtons{
+
+        font-size: 10px;
+        text-align: center!important;
+        margin-left: 23px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- amis qvemot aris avto ---------------*/
+
+
+
+
+
+
+@media (max-width: 280px ) {
+
+    .accordion ul li a {
+        display: flex!important;
+        height: auto!important;
+
+    }
+
+}
+
+
+@media (max-width: 767px ){
+
+
+    /* ------- MENU -----*/
+
+    /* <!----- top_menublack ----> */
+
+    .top_menublack {
+        display: block !important;
+        height: auto!important;
+        text-align: center;
+    }
+
+
+
+    .top_menublack ul {
+        display: block;
+        margin-left: 0px;
+
+    }
+
+    .top_menublack img {
+        margin-left: 25px !important;
+        width: 16% !important;
+    }
+
+
+    .top_menublack li a {
+        font-size: 20px !important;
+        color: #000000;
+    }
+
+
+    /* <!------- endmenu ------> */
+    .endmenu {
+        margin-right: 0px!important;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .endmenu a:hover {
+        background-color: #55595c;
+    }
+
+    /* ------- END MENU -----*/
+
+
+}
+
+
+@media (max-width: 740px ) {
+
+
+    /* <!------- articleTextWrapper ---> */
+
+    .articleTextWrapper {
+        height: auto;
+        position: sticky !important;
+
+
+    }
+}
+
+
+
+
+
+/*<!------------ BGCOLORALL  ----------->*/
+.bgcolorall {
+    background-color: #000000;
+    height:100%;
+
+}
+
+
+
+
+/*------------------------ MENUUUUUU------------------- */
+
+
+/* <!------- top_menublack ---------> */
+.top_menublack {
+    position: relative;
+    width: 100%;
+    height: 90px;
+
+}
+
+.top_menublack img {
+    margin-left: 120px;
+    width: 60px;
+}
+
+.top_menublack ul {
+    /* margin-right: 90px; */
+    list-style: none;
+    display: flex;
+}
+
+.top_menublack li a{
+    text-transform: capitalize;
+    color: #595959 !important;
+    font-family: "DejaVuSans",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.top_menublack li a:hover{
+    transition: 0.6s;
+    color: #ffffff !important;
+}
+
+
+/* <!------- endmenu ------> */
+.endmenu {
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+/*------------------------ END MENUUUUUU------------------- */
+
+
+
+
+
+
+/* <!---------------------- ACCORDEO IMAGES -----------------> */
+
+
+.accordion {
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.accordion ul {
+    width: 100%;
+    height: 100% ;
+    display: table;
+}
+
+.accordion ul li {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    width: 16.666%;
+    height: 75vh;
+    transition: all 800ms ease;
+}
+
+.accordion ul li div {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion ul li a {
+    display: block;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.accordion  a * {
+    opacity: 0;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    transition: all 400ms ease;
+}
+
+.accordion span {
+    padding: 15px 30px;
+    background-color: #039F9A;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fff;
+    top: 50%;
+
+}
+
+
+
+.accordion ul li:nth-child(1) { background-image: url("../images/product-school.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.accordion ul li:nth-child(2) { background-image: url("../images/slide-2-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.accordion ul:hover li {
+    width: 20%;
+}
+
+.accordion ul:hover li:hover {
+    width: 60%;
+}
+
+.accordion ul:hover li:hover a {
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.accordion ul:hover li:hover a * {
+    opacity: 1;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .accordion ul li,
+    .accordion ul li:hover,
+    .accordion ul:hover li,
+    .accordion ul:hover li:hover {
+        position: relative;
+        transition: all 400ms ease;
+    }
+
+}
+
+/* <!----------------------END  ACCORDEO IMAGES -----------------> */

@@ -1,0 +1,125 @@
+/*----------------------- amis qvemot aris avto ---------------*/
+
+
+
+
+
+
+@media (max-width: 280px ) {
+
+    .accordion ul li a {
+        display: flex!important;
+        height: auto!important;
+
+    }
+
+}
+
+
+@media (max-width: 767px ){
+
+
+    /* ------- MENU -----*/
+
+    /* <!----- top_menublack ----> */
+
+    .top_menublack {
+        display: block !important;
+        height: auto!important;
+        text-align: center;
+    }
+
+
+
+    .top_menublack ul {
+        display: block;
+        margin-left: 0px;
+
+    }
+
+    .top_menublack img {
+        margin-left: 25px !important;
+        width: 16% !important;
+    }
+
+
+    .top_menublack li a {
+        font-size: 20px !important;
+        color: #000000;
+    }
+
+
+    /* <!------- endmenu ------> */
+    .endmenu {
+        margin-right: 0px!important;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .endmenu a:hover {
+        background-color: #55595c;
+    }
+
+    /* ------- END MENU -----*/
+
+
+}
+
+
+@media (max-width: 740px ) {
+
+
+    /* <!------- articleTextWrapper ---> */
+
+    .articleTextWrapper {
+        height: auto;
+        position: sticky !important;
+
+
+    }
+}
+@media screen and (min-width:1400px){
+    body{
+        background-image: background: url(../images/product-school-dJICd7b_LlE-unsplash-scaled.jpg) , url(../images/logo-02.png);
+        width: 100%;
+    min-height: 100vh;
+    /* background-color: black; */
+    /* background-repeat: no-repeat, repeat; */
+    background: url(../images/product-school-dJICd7b_LlE-unsplash-scaled.jpg) , url(../images/logo-02.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-position: center center , top left -32px;
+    background-repeat: no-repeat, no-repeat;
+    }
+
+    .brd{
+    width: 5%;
+    display: inline-block;
+    margin-left: 42%;
+    }
+    ul.navbar-nav {
+    margin-right: 82%;
+}
+
+
+    .cont-center {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+    .container {
+    /* color: white; */
+
+    /* width: 100%; */
+    text-align: center;
+}
+
+
+
+}
